@@ -1,0 +1,55 @@
+push
+translate
+250 150 0
+yrotate
+-45
+sphere
+0 0 125
+push
+translate
+125 75 0
+xrotate
+25 
+sphere
+0 0 25
+box
+-25 0 25 50 200 50
+pop
+push
+translate
+-125 75 0
+xrotate
+-30
+sphere
+0 0 25
+box
+-25 0 25 50 200 50
+pop
+translate
+0 200 0
+sphere
+0 0 100
+push
+translate
+70 70 0
+sphere
+0 0 20
+pop
+push
+translate
+-70 70 0
+sphere
+0 0 20
+pop
+push
+translate
+0 0 -70
+sphere
+0 0 20
+pop
+display
+pop
+display
+save
+pic.png
+quit
